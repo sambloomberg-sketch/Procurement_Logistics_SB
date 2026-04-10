@@ -20,10 +20,13 @@ This repository is configured with [GitHub Copilot](https://github.com/features/
 │   ├── code-review.instructions.md  # Code review guidelines
 │   ├── python.instructions.md       # Python coding standards
 │   └── security.instructions.md     # Security best practices
-└── prompts/
-    ├── explain-code.prompt.md       # Explain selected code
-    ├── fix-issue.prompt.md          # Analyze and fix issues
-    └── test-gen.prompt.md           # Generate tests
+├── prompts/
+│   ├── explain-code.prompt.md       # Explain selected code
+│   ├── fix-issue.prompt.md          # Analyze and fix issues
+│   └── test-gen.prompt.md           # Generate tests
+└── skills/
+    └── create-github-issues-feature-from-implementation-plan/
+        └── SKILL.md                 # Create GitHub Issues from implementation plans
 ```
 
 ### Resources
@@ -33,6 +36,7 @@ This repository is configured with [GitHub Copilot](https://github.com/features/
 | **Agents** | Specialized Copilot agents for debugging, planning, code review, and engineering guidance |
 | **Instructions** | Coding standards applied automatically by file pattern (Python, security, code review) |
 | **Prompts** | Reusable prompt templates for common tasks (test generation, code explanation, issue fixing) |
+| **Skills** | Complex workflows with bundled assets (create GitHub Issues from implementation plans) |
 
 ### Usage
 
